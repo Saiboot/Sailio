@@ -1,2 +1,2 @@
-# Sailo
+# Sailio
 My portfolio webpage
