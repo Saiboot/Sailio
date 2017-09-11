@@ -1,0 +1,48 @@
+@font-face {
+    font-family: gohu_font;
+    src: url(GohuFont-Bold.ttf);
+}
+
+@font-face {
+    font-family: code_font;
+    src: url(Code.ttf);
+}
+
+p {
+    font-family: code_font;
+    color: #ff6a80;
+    text-shadow: -0.8px -0.8px gray;
+}
+
+form {
+    background: black;
+    display: inline-block;
+}
+
+form input {
+    border: none;
+    background: transparent;
+    outline: none;
+    color: #FFF8DC;
+    font-family: code_font;
+}
+
+#terminal #command_line {
+    position: absolute;
+    bottom: 0.2px;
+}
+
+#terminal {
+    position: relative;
+    height: 300px;
+    width: 38%;
+    padding: 0.5px;
+    color: #FFF8DC;
+    font-family: code_font;
+    background-color: black;
+}
+
+footer {
+    position: absolute;
+    bottom: 5px;
+}
